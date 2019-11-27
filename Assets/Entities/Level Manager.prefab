@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1802832720252370}
+  m_IsPrefabParent: 1
+--- !u!1 &1802832720252370
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4894770872459296}
+  - component: {fileID: 114584840262280968}
+  - component: {fileID: 114747187819769504}
+  m_Layer: 0
+  m_Name: Level Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4894770872459296
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1802832720252370}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114584840262280968
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1802832720252370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8e46840907076c42b6b4ba4f66b38f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114747187819769504
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1802832720252370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6006c710f5647f8469010a9d41384607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pooledObjects: []
+  itemsToPool:
+  - shouldExpand: 1
+    objectToPool: {fileID: 121028, guid: 2cf453ca9536c954bb0761ab01443e53, type: 2}
+    amountToPool: 20
+  - shouldExpand: 1
+    objectToPool: {fileID: 169752, guid: 3ff59163900d6dd49a4df49ac1c60844, type: 2}
+    amountToPool: 20
+  - shouldExpand: 1
+    objectToPool: {fileID: 1924921266078104, guid: d4d9ffe40127346489ea281e93730ecc,
+      type: 2}
+    amountToPool: 6
+  - shouldExpand: 1
+    objectToPool: {fileID: 1427966603114304, guid: 0aa4c81bceb76a64bb554de950de809b,
+      type: 2}
+    amountToPool: 30
+  - shouldExpand: 1
+    objectToPool: {fileID: 1324192203460382, guid: 9490bb3c6ecd3424481a1955ac4e9137,
+      type: 2}
+    amountToPool: 10
+  - shouldExpand: 1
+    objectToPool: {fileID: 1112856626478286, guid: cc62a36e29e9f674e8c66744b01f1168,
+      type: 2}
+    amountToPool: 30
+  - shouldExpand: 0
+    objectToPool: {fileID: 113068, guid: 13d05222b1a003643b13f1f912e7329f, type: 2}
+    amountToPool: 7

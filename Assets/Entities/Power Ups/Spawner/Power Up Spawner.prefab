@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1236885395741480}
+  m_IsPrefabParent: 1
+--- !u!1 &1236885395741480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4498047602314754}
+  - component: {fileID: 114548651151985818}
+  m_Layer: 0
+  m_Name: Power Up Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4498047602314754
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1236885395741480}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114548651151985818
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1236885395741480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f52d38ae47a13d469953143d259c5ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthUps:
+  - {fileID: 196872, guid: 86ace6129f2173347938df5b2062b139, type: 2}
+  shieldUps:
+  - {fileID: 174708, guid: bc556edc767701546bf01846da2de18f, type: 2}
+  laserModes:
+  - {fileID: 117146, guid: 8100ecd3f2ec44b4fb8efdbfd7afba53, type: 2}
+  - {fileID: 121984, guid: 0b3cbf6960825fd43a1ed9f6a3252d9d, type: 2}
+  - {fileID: 149418, guid: 5a4c6d683df5e1a43ae2665986a8d6da, type: 2}
+  - {fileID: 104020, guid: 03c0eb1c0299e1a4b921f3f06e566492, type: 2}
+  powerUpFallSpeed: 9
+  healthChance: 35
+  shieldChance: 25
+  laserChance: 15
+  powerUpChance: 10

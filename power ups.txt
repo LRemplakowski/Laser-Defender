@@ -1,0 +1,8 @@
+Power upy:
++hp - niebieski piorun
+tarcza - niebieska tarcza
+podwójny laser - zielona pigu³a
+szybki laser - ¿ó³ta pigu³a
+mocny laser - czerwona pigu³a
+normalny laser - niebieska pigu³a
+

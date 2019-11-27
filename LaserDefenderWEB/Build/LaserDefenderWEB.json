@@ -1,0 +1,13 @@
+{
+"companyName": "Switchu",
+"productName": "Laser Defender",
+"dataUrl": "LaserDefenderWEB.data.unityweb",
+"asmCodeUrl": "LaserDefenderWEB.asm.code.unityweb",
+"asmMemoryUrl": "LaserDefenderWEB.asm.memory.unityweb",
+"asmFrameworkUrl": "LaserDefenderWEB.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
